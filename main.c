@@ -3,6 +3,9 @@
 #include "restar.h"
 
 #include "dividir.h"
+
+#include "multiplicar.h"
+
 int main(int arcg, char const * argrv[])
 
 {
@@ -19,6 +22,9 @@ printf("la suma es : %d \n", sumar(a,b));
 printf("la resta es : %d \n ", restar(a,b));
 
 printf("la division es : %d\n", dividir(a,b));
+
+printf("la multiplicacion es : %d\n", multiplicar(a,b));
+
 return 0;
 
 }
