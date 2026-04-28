@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "sumar.h"
 int main(int arcg, char const * argrv[])
 
 {
@@ -11,8 +11,7 @@ scanf("%d", &a);
 printf("ingresa segundo numero ");
 scanf("%d", &b);
 
-sumar(a,b);
-
+printf("la suma es : %d", sumar(a,b));
 
 return 0;
 
